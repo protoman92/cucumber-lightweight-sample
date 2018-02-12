@@ -1,0 +1,28 @@
+{
+  "name": "cucumber-lightweight-sample",
+  "version": "1.0.0",
+  "description": "Lightweight sample for some cucumber issues.",
+  "main": "index.js",
+  "scripts": {
+    "cucumber": "./node_modules/.bin/cucumber-js src --require src/steps/*.steps.ts --require-module ts-node/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/protoman92/cucumber-lightweight-sample.git"
+  },
+  "keywords": [
+    "cucumber"
+  ],
+  "author": "Hai Pham",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/protoman92/cucumber-lightweight-sample/issues"
+  },
+  "homepage": "https://github.com/protoman92/cucumber-lightweight-sample#readme",
+  "dependencies": {
+    "@types/cucumber": "^4.0.0",
+    "cucumber": "^4.0.0",
+    "ts-node": "^4.1.0",
+    "typescript": "^2.7.1"
+  }
+}
